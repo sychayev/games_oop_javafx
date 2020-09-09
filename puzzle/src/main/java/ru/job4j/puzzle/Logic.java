@@ -61,7 +61,8 @@ public class Logic {
     }
 
     public boolean isWin() {
-        return Win.check(convert());
+        return Win.checkVertical(convert());
+
     }
 
     public int[][] convert() {
