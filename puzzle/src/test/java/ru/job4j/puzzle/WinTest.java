@@ -19,7 +19,6 @@ public class WinTest {
         };
         assertThat(Win.checkWinVertical(board), is(true));
     }
-
     @Test
     public void whenHorizontalWin() {
         int[][] board = {

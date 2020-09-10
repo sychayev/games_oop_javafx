@@ -12,7 +12,6 @@ public class Win {
         }
         return rsl;
     }
-
     public static boolean checkHorizontal(int[][] board) {
         boolean rsl = true;
         for (int i = 0; i < board.length; i++) {

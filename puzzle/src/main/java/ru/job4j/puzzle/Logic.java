@@ -65,8 +65,6 @@ public class Logic {
         return Win.checkWinVertical(convert())
                 || Win.checkHorizontal(convert())
                 || Win.checkNotWinOrAndVert(convert());
-//        return Win.checkNotWinOrAndVert(convert());
-//        return Win.checkNotWinL(convert());
     }
 
 
