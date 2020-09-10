@@ -17,7 +17,7 @@ public class WinTest {
                 {0, 0, 1, 0, 0},
                 {0, 0, 1, 0, 0},
         };
-        assertThat(Win.checkVertical(board), is(true));
+        assertThat(Win.checkWinVertical(board), is(true));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class WinTest {
                 {0, 0, 1, 0, 0},
                 {0, 0, 1, 0, 0},
         };
-        assertThat(Win.checkNotWinHorAndVert(board), is(false));
+        assertThat(Win.checkNotWinOrAndVert(board), is(false));
     }
 
 //    @Test
