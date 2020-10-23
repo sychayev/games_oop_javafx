@@ -30,18 +30,18 @@ public class WinTest {
         };
         assertThat(Win.checkHorizontal(board), is(true));
     }
-
-    @Test
-    public void whenNotWin() {
-        int[][] board = {
-                {0, 0, 1, 0, 0},
-                {0, 0, 1, 0, 0},
-                {1, 1, 0, 1, 1},
-                {0, 0, 1, 0, 0},
-                {0, 0, 1, 0, 0},
-        };
-        assertThat(Win.checkNotWinOrAndVert(board), is(false));
-    }
+//
+//    @Test
+//    public void whenNotWin() {
+//        int[][] board = {
+//                {0, 0, 1, 0, 0},
+//                {0, 0, 1, 0, 0},
+//                {1, 1, 0, 1, 1},
+//                {0, 0, 1, 0, 0},
+//                {0, 0, 1, 0, 0},
+//        };
+//        assertThat(Win.checkNotWinOrAndVert(board), is(false));
+//    }
 
 //    @Test
 //    public void whenNotWinL() {
